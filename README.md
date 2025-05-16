@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
 index 587c7c3..2cd039c 100644
 --- a/README.md
@@ -18,6 +17,3 @@ index 587c7c3..2cd039c 100644
 +```
 +
 +Move your player using **w**, **a**, **s**, **d** keys to navigate the map, collect all coins, and reach the exit `E`. Quit any time by pressing `q`.
- 
-EOF
-)
