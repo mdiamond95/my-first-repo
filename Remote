@@ -1,2 +1,8 @@
-git remote add origin git@github.com:mdiamond95/my-first-repo.git
-git push -u origin work
+diff --git a/Remote b/Remote
+index b61962b..5b8a08a 100644
+--- a/Remote
++++ b/Remote
+@@ -1,2 +1,3 @@
+ git remote add origin git@github.com:mdiamond95/my-first-repo.git
++git remote add codex https://github.com/mdiamond95/my-first-repo.git
+ git push -u origin work
